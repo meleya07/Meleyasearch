@@ -1,0 +1,137 @@
+a {
+    text-decoration-line:none;
+    color:#00aad8;
+    font-family: 'Segoe UI';
+}
+.title,div {
+    color:#00aad8;
+    font-family:'Segoe UI';
+    text-align-last:center;
+}
+.im {
+    background-color:#00aad8;
+    border:solid;
+    border-radius:10px;
+    border-color:#0094bd;
+    height:50px;
+    font-size:large;
+    width:70%;
+    transition:background-color 0.5s;
+}
+.im:focus{
+    background-color:#d6f6ff;
+    border-color:#d6f6ff;
+    transition: background-color 0.5s 0.2s;
+}
+div {
+    font-size:large;
+}
+p {
+    font-family:'Segoe UI';
+    color:#00aad8;
+}
+.b3,.b2 {
+    justify-content:center;
+    border-radius:10px;
+    border:solid;
+    height:30px;
+    width:100px;
+    font-size:15px;
+}
+.b3 {
+    background-color:#00aad8;
+    font-family: 'Segoe UI';
+    color: #d6f6ff;
+    border-color:#0094bd;    
+}
+.b2 {
+    background-color:#d6f6ff;
+    font-family: 'Segoe UI';
+    color: #00aad8;
+    border-color:#d6f6ff;
+    transition: background-color 0.5s 0.2s;
+}
+.b2:hover {
+    background-color:white;
+    transition: background-color 0.5s 0.2s;
+}
+.logo {
+    height:50px;
+    opacity: 1;
+    transition: opacity 0.5;
+}
+.title {
+    font-size:35px;
+}
+.b1 {
+    background-color:#00aad8;
+    border:solid;
+    border-radius:10px;
+    border-color:#0094bd;
+    height:50px;
+    font-size:large;
+    width:50px;
+    transition: border-color, background-color 0.5s;
+}
+.b1:hover {
+    background-color:#d6f6ff;
+    border-color:#d6f6ff;
+    transition: background-color, border-color 0.5s;
+}
+.b1:active {
+    border-color:#d6f6ff;
+    background-color:#ffffff;
+    transition: border-color,background-color 0.5s;
+}
+.i {
+    width:200px;
+    justify-content: center;
+}
+.im::placeholder {
+    color:#d6f6ff;
+}
+select, .c1 {
+    border-radius:12px;
+    border:solid;
+    border-color:#0094bd
+}
+::selection {
+  color: #d6f6ff;
+  background: #00aad8;
+}
+.p2 {
+    font-weight: bold;
+}
+
+.dialogue {
+    border-radius: 12px;
+    height: 550px;
+    width:825px;
+    transform:translateY(-15px);
+    border-color:#0094bd;
+}
+
+.dialogue ::backdrop {
+    background-color:grey;
+    opacity: 0.75;
+}
+.defimg {
+    border-radius:12px;
+    height:315px;
+    border:solid;
+    border-color:#0094bd;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    width:460px;
+}
+.b4{
+    cursor:pointer;
+    border-radius: 12px;
+    border:solid;
+    border-color:#0094bd;
+    background-color:#d6f6ff;
+    justify-content: flex-end;
+    display:flex;
+}
