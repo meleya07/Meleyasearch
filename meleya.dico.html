@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Meleya - Dictionnaire</title>
+        <link id="css1" rel="stylesheet" href="styles.css" />
+        <script src="base.dico.js"></script>
+    </head>
+    <body>
+        <h1 class="title">Meleya</h1>
+        <div><iframe title="Logo" style="height:100px; width:60px; border: hidden" src="Logo.html"></iframe></div>
+        <button class="b3" >Dictionnaire</button>
+        <button onclick="window.location.href = 'meleya.mw.html';" class="b2" >Mini World</button>
+        <button onclick="window.location.href = 'meleya.recherche.html';" class="b2" >Inventions</button>
+        <br />
+	        <input onchange="rechercher();" class="im" type="search" id="s1" placeholder="Rechercher un mot dans le dictionnaire..." name="q" />
+        <button onclick="rechercher();" id=button1 class="b1">🔎</button>
+        <p class="p2" id="p2" >Saisissez votre mot dans la barre de recherche 🔺<p/>
+        <p id="p1" ></p>
+        <dialog id="dialogue" class="dialogue">
+            <button onclick="fermer();" style="cursor:pointer; border-radius: 12px; border:solid; border-color:#0094bd; background-color:#d6f6ff;">❌</button>
+            <iframe id="iframe" onload="document.getElementById('iframe').style.display = 'none';" title="Animation" src="animation1.html" style="border:none; width:808.6px; height:520px; align-items:center;"></iframe>
+        </dialog>
+        <audio id="myAudio" src="https://cdn.pixabay.com/audio/2024/01/02/audio_0fa2d24573.mp3"></audio>
+        <div style="user-select:none; font-size: small;" onclick="var g = prompt('Entrez vos commentaires sur Meleya Dictionnaire :')">Commentaires</div>
+    </body>
+</html>

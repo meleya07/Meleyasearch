@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Animation 1</title>
+</head>
+<body>
+      <svg style="border-rasdius:12px;" height="500px" width="800px" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="#00aad8" />
+                    <stop offset="50%" stop-color="#d6f6ff" stop-opacity="100" />
+                    <stop offset="100%" stop-color="#00aad8" />
+                </linearGradient>
+                <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="#d6f6ff" />
+                    <stop offset="50%" stop-color="#00aad8" stop-opacity="100" />
+                    <stop offset="100%" stop-color="#d6f6ff" />
+                </linearGradient>
+            </defs>
+          <rect fill="url(#Gradient1)" stroke="none" stroke-width="50px" fill="none" fill-rule="evenodd" height="10px" width="10px">
+            <animate
+            attributeName="rx"
+            values="1;1;5;5;1"
+            dur="9s"
+            repeatCount="indefinite" />
+            <animate
+            attributeName="opacity"
+            values="0.5;1;0.5"
+            dur="5s"
+            begin="0.1"
+            repeatCount="indefinite" />
+            <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="180"
+            to="540"
+            dur="20s"
+            repeatCount="indefinite" />
+        </rect>
+        <rect style="fill:#00aad8;" stroke="none" stroke-width="50px" fill="none" fill-rule="evenodd" height="10px" width="10px">
+            <animate
+            attributeName="rx"
+            values="5;5;1;1;5"
+            dur="9s"
+            repeatCount="indefinite" />
+            <animate
+            attributeName="opacity"
+            values="0.5;1;0.5"
+            dur="3s"
+            begin="0.1"
+            repeatCount="indefinite" />
+            <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0"
+            to="360"
+            dur="19s"
+            repeatCount="indefinite" />
+        </rect>
+        <rect style="fill:#d6f6ff;" stroke="none" stroke-width="50px" fill="none" fill-rule="evenodd" height="10px" width="10px">
+            <animate
+            attributeName="rx"
+            values="1;5;5;1;1"
+            dur="9s"
+            repeatCount="indefinite" />
+            <animate
+            attributeName="opacity"
+            values="0.5;1;0.5"
+            dur="6s"
+            begin="0.1"
+            repeatCount="indefinite" />
+            <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="100"
+            to="460"
+            dur="18s"
+            repeatCount="indefinite" />
+        </rect>
+        <rect style="fill:#0094bd;" stroke="none" stroke-width="50px" fill="none" fill-rule="evenodd" height="10px" width="10px">
+            <animate
+            attributeName="rx"
+            values="1;1;5;5;1"
+            dur="9s"
+            repeatCount="indefinite" />
+            <animate
+            attributeName="opacity"
+            values="0.5;1;0.5"
+            dur="4s"
+            begin="0.1"
+            repeatCount="indefinite" />
+            <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="200"
+            to="560"
+            dur="26s"
+            repeatCount="indefinite" />
+        </rect>
+        <rect style="fill:url(#Gradient2);" stroke="none" stroke-width="50px" fill="none" fill-rule="evenodd" height="10px" width="10px">
+            <animate
+            attributeName="rx"
+            values="5;1;1;5;5"
+            dur="5s"
+            repeatCount="indefinite" />
+            <animate
+            attributeName="opacity"
+            values="0.5;1;0.5"
+            dur="7s"
+            begin="0.1"
+            repeatCount="indefinite" />
+            <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="300"
+            to="660"
+            dur="24s"
+            repeatCount="indefinite" />
+        </rect>
+          </svg>
+</body>
+</html>
